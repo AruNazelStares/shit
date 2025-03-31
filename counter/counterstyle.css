@@ -1,0 +1,36 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 11em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#buttonsdiv{
+    text-align: center;
+}
+.buttons{
+    padding: 10px, 20px;
+    font: optional;
+    font-size: x-large;
+    color: goldenrod;
+    background-color: black;
+    border-color: goldenrod;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.buttons:hover{
+    background-color: #2220;
+}
+a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    color: goldenrod;
+    text-decoration: none;
+    border: 2px dotted goldenrod;
+    border-color: goldenrod;
+    background-color: black;
+    border-radius: 24%;
+}

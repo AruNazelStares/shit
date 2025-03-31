@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Optional CSS -->
+</head>
+<body>
+    <div>
+        <label id="countlabel">300</label> <!-- Initial count displayed here -->
+    </div>
+    <div id="controlsdiv">
+        <!-- Slider and Number input combo -->
+        <input type="range" id="countslider" class="slider" min="1" max="3600" value="300">
+        <input type="number" id="countinput" class="numinput" min="1" max="3600" value="5">
+    </div>
+
+    <!-- New input for user to specify target time -->
+    <div id="targetTimeDiv">
+        <label for="targetTimeInput">Target Time (HH:MM): </label>
+        <input type="time" id="targetTimeInput" step="1">
+    </div>
+
+    <div id="buttonsdiv">
+        <button id="resetbtn" class="buttons">Reset</button>
+        <button id="startbtn" class="buttons">Start</button>
+        <button id="testbtn" class="buttons">Test</button>
+    </div>
+
+    <script src="counterwithsetup.js"></script>
+</body>
+</html>

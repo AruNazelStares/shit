@@ -1,0 +1,30 @@
+/* Optional CSS for better layout */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#controlsdiv {
+    margin-top: 20px;
+}
+
+.slider {
+    width: 200px;
+    margin: 10px;
+}
+
+.numinput {
+    width: 60px;
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+}

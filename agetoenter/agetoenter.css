@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body takes full height of the viewport */
+}
+
+#inputdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    height: 100%; /* Ensure it takes full height of the viewport */
+}
+
+#inputlabel {
+    margin-bottom: 10px; /* Add some space between label and input */
+}
+
+#userage {
+    margin-bottom: 20px; /* Add some space between input and submit button */
+}
+
+#submit {
+    padding: 10px 15px; /* Style for the button */
+    cursor: pointer;
+    border-color: goldenrod;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+}
+
+/* Additional styling for the button can be added as needed */
+#userage:focus + #inputlabel {
+    display: none;
+}
